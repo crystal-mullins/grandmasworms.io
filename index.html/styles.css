@@ -1,0 +1,31 @@
+#box{
+    color:brown;
+    background-color: seashell;
+    border: solid black;
+    text-align: center;
+
+}
+
+#worm{
+    verticle-align: middle;
+    color: #663333;
+    text-align: center;
+    font-size: 24px;
+    animation-name: small_hearts;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    position: relative;
+  }
+  @keyframes small_hearts {
+    0%   {color:#663333; left:0px; top:0px;}
+    25%  {color:#66000; left:300px; top:0px;}
+    50%   {color:#663333; left:0px; top:0px;}
+    75%  {color:#66000; left:300px; top:0px;}
+    100%   {color:#663333; left:0px; top:0px;}
+    /* 50%  {color:#33000; left:200px; top:-230px;} */
+    /* 75%  {color:#cc0000; left:-150px; top:-230px;}
+    100% {color:#ff6666; left:0px; top:0px;} */
+  }
+
+}
