@@ -1,9 +1,25 @@
+body{
+  padding:2%;
+  margin: 2%;
+}
+
 #box{
     color:brown;
     background-color: seashell;
     border: solid black;
     text-align: center;
+    padding:2%;
+    margin: 2%;
+}
 
+#container{
+  color:brown;
+  background-color: seashell;
+  border: solid black;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding:2%;
+  margin: 2%;
 }
 
 #worm{
@@ -28,4 +44,3 @@
     100% {color:#ff6666; left:0px; top:0px;} */
   }
 
-}
